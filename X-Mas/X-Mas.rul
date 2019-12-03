@@ -1,0 +1,28 @@
+extraSprites:
+  - type: BIGOBS.PCK
+    files:
+      46: Sprites/BigObs/BIGOBS_46.PNG
+  - type: FLOOROB.PCK
+    files:
+      42: Sprites/FloorOb/FLOOROB_42.PNG
+  - type: SECTOID.PCK
+    files:
+      32: Sprites/Sectoid/SECTOID_032.PNG
+      33: Sprites/Sectoid/SECTOID_033.PNG
+      34: Sprites/Sectoid/SECTOID_034.PNG
+      35: Sprites/Sectoid/SECTOID_035.PNG
+      36: Sprites/Sectoid/SECTOID_036.PNG
+      37: Sprites/Sectoid/SECTOID_037.PNG
+      38: Sprites/Sectoid/SECTOID_038.PNG
+      39: Sprites/Sectoid/SECTOID_039.PNG
+      264: Sprites/Sectoid/SECTOID_264.PNG
+      265: Sprites/Sectoid/SECTOID_265.PNG
+      266: Sprites/Sectoid/SECTOID_266.PNG
+  - type: UP024.SPK
+    singleImage: true
+    files:
+      0: Sprites/Ufopaedia/UP024.png
+  - type: UP025.SPK
+    singleImage: true
+    files:
+      0: Sprites/Ufopaedia/UP025.png
