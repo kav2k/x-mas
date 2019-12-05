@@ -2,9 +2,11 @@ extraSprites:
   - type: BIGOBS.PCK
     files:
       46: Sprites/BigObs/BIGOBS_46.PNG
+      49: Sprites/BigObs/BIGOBS_49.PNG
   - type: FLOOROB.PCK
     files:
       42: Sprites/FloorOb/FLOOROB_42.PNG
+      45: Sprites/FloorOb/FLOOROB_45.PNG
   - type: SECTOID.PCK
     files:
       32: Sprites/Sectoid/SECTOID_032.PNG
@@ -18,6 +20,21 @@ extraSprites:
       264: Sprites/Sectoid/SECTOID_264.PNG
       265: Sprites/Sectoid/SECTOID_265.PNG
       266: Sprites/Sectoid/SECTOID_266.PNG
+  - type: ETHEREAL.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 400
+    files:
+      0: Sprites/Ethereal/ETHEREAL.png
+  - type: UP016.SPK
+    singleImage: true
+    files:
+      0: Sprites/Ufopaedia/UP016.png
+  - type: UP017.SPK
+    singleImage: true
+    files:
+      0: Sprites/Ufopaedia/UP017.png
   - type: UP024.SPK
     singleImage: true
     files:
@@ -29,7 +46,7 @@ extraSprites:
 extraStrings:
   - type: en-US
     strings:
-      STR_SECTOID_UFOPEDIA: "The Santoid hierarchy ranges from soldiers to leaders with powerful psionic abilities. These psionic powers can be used to demoralize soldiers in combat, or even take control of their minds. They tend to indulge in human abductions and cattle mutilation. The abduction is used to extract genetic material for cross breeding and developing clones for infiltrating human society. The cattle provide both nutrition and genetic material. This race appears to want to develop superior genetic hybrids to increase the efficiency of their hive-like society."
+      STR_SECTOID_UFOPEDIA: "The Santoid hierarchy ranges from soldiers to leaders with powerful psionic abilities. These psionic powers can be used to demoralize soldiers in combat, or even take control of their minds. They tend to indulge in human abductions and cattle mutilation. The abduction is used for spreading seasonal cheer and developing clones for infiltrating human society. The cattle provide both nutrition and genetic material. This race appears to want to develop superior genetic hybrids to increase the efficiency of their hive-like society."
       STR_SECTOID_AUTOPSY: "Santoid autopsy"
       STR_CYBERDISC_UFOPEDIA: "This miniature flying saucer is an automated terror weapon armed with a powerful plasma beam. The anti-gravity propulsion gives it a big advantage in difficult terrain. Its primary function is destruction and terror in the service of the Santoid race."
       STR_SECTOID: "Santoid"
@@ -40,3 +57,17 @@ extraStrings:
       STR_SECTOID_LEADER: "Santoid Leader"
       STR_SECTOID_COMMANDER: "Santoid Commander"
       STR_SECTOID_CORPSE: "Santoid Corpse"
+      
+      STR_ETHEREAL_UFOPEDIA: "Santa is real and coming for you! This being has awesome mental powers which allow for telepathic communication and telekinetic abilities. The apparently weak physical abilities of this creature are sustained by its mental powers. We do not understand how these telekinetic powers work, since they seem to defy the laws of physics as we know them. They are extremely dangerous in any combat situation, where they rely on their mental powers for combat. They rarely appear on earth since they seem to rely on other races to pursue their objectives."
+      STR_ETHEREAL_AUTOPSY: "Santareal autopsy"
+      STR_ETHEREAL_AUTOPSY_UFOPEDIA: "This being is physically retarded and seems incapable of sustaining any life functions. The muscles are severely atrophied and the internal organs appear to be under-developed. The sensory organs, including the eyes, do not appear to function at all. The brain, however, is well developed and draws on a high proportion of the body's blood supply. It is a mystery as to how this creature can sustain itself without external support."
+      STR_MUTON_UFOPEDIA: "This humanoid creature is physically powerful and intelligent. They have a particular appetite for consuming raw flesh of any kind, which they need for sustenance like earth based carnivores. They appear to rely on telepathic commands from a race known as 'Santareals'. Once separated from this telepathic link their mental system appears to break down and they die. The cybernetic implants are used to enhance their combat performance. They are clearly the foot soldiers for a higher intelligence."
+      STR_SECTOPOD_UFOPEDIA: "Sectopods are robot creatures with a powerful laser beam weapon. The control of these mechanical beasts is via a telepathic link to their controllers, the Santareals. Sectopods are the most powerful terror weapon available to the alien forces."
+      STR_ETHEREAL: "Santareal"
+      STR_ETHEREAL_SOLDIER: "Santareal Soldier"
+      STR_ETHEREAL_LEADER: "Santareal Leader"
+      STR_ETHEREAL_COMMANDER: "Santareal Commander"
+      STR_ETHEREAL_CORPSE: "Santareal Corpse"
+
+      STR_IS_UNDER_ALIEN_CONTROL_MALE: "{0}{NEWLINE}is taken by the{NEWLINE}Christmas spirit!"
+      STR_IS_UNDER_ALIEN_CONTROL_FEMALE: "{0}{NEWLINE}is taken by the{NEWLINE}Christmas spirit!"
