@@ -7,6 +7,10 @@ extraSprites:
     files:
       42: Sprites/FloorOb/FLOOROB_42.PNG
       45: Sprites/FloorOb/FLOOROB_45.PNG
+      56: Sprites/FloorOb/FLOOROB_56.PNG
+      57: Sprites/FloorOb/FLOOROB_57.PNG
+      58: Sprites/FloorOb/FLOOROB_58.PNG
+      59: Sprites/FloorOb/FLOOROB_59.PNG
   - type: SECTOID.PCK
     files:
       32: Sprites/Sectoid/SECTOID_032.PNG
@@ -27,6 +31,13 @@ extraSprites:
     height: 400
     files:
       0: Sprites/Ethereal/ETHEREAL.png
+  - type: CYBER.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 280
+    files:
+      0: Sprites/Cyberdisk/CYBER.png
   - type: UP016.SPK
     singleImage: true
     files:
@@ -43,6 +54,14 @@ extraSprites:
     singleImage: true
     files:
       0: Sprites/Ufopaedia/UP025.png
+  - type: UP041.SPK
+    singleImage: true
+    files:
+      0: Sprites/Ufopaedia/UP041.png
+  - type: UP042.SPK
+    singleImage: true
+    files:
+      0: Sprites/Ufopaedia/UP042.png
 extraStrings:
   - type: en-US
     strings:
@@ -57,7 +76,7 @@ extraStrings:
       STR_SECTOID_LEADER: "Santoid Leader"
       STR_SECTOID_COMMANDER: "Santoid Commander"
       STR_SECTOID_CORPSE: "Santoid Corpse"
-      
+
       STR_ETHEREAL_UFOPEDIA: "Santa is real and coming for you! This being has awesome mental powers which allow for telepathic communication and telekinetic abilities. The apparently weak physical abilities of this creature are sustained by its mental powers. We do not understand how these telekinetic powers work, since they seem to defy the laws of physics as we know them. They are extremely dangerous in any combat situation, where they rely on their mental powers for combat. They rarely appear on earth since they seem to rely on other races to pursue their objectives."
       STR_ETHEREAL_AUTOPSY: "Santareal autopsy"
       STR_ETHEREAL_AUTOPSY_UFOPEDIA: "This being is physically retarded and seems incapable of sustaining any life functions. The muscles are severely atrophied and the internal organs appear to be under-developed. The sensory organs, including the eyes, do not appear to function at all. The brain, however, is well developed and draws on a high proportion of the body's blood supply. It is a mystery as to how this creature can sustain itself without external support."
@@ -71,3 +90,11 @@ extraStrings:
 
       STR_IS_UNDER_ALIEN_CONTROL_MALE: "{0}{NEWLINE}is taken by the{NEWLINE}Christmas spirit!"
       STR_IS_UNDER_ALIEN_CONTROL_FEMALE: "{0}{NEWLINE}is taken by the{NEWLINE}Christmas spirit!"
+
+      STR_CYBERDISC_UFOPEDIA: "This miniature flying saucer is an automated cheer weapon armed with a powerful plasma beam. The anti-gravity propulsion gives it a big advantage in difficult terrain. Its primary function is destruction and terror in the service of the Sectoid race. The \"gift tag\" has mild psionic properties, with individuals reporting seeing their own names while photographs of the object show an indistinct blur."
+      STR_CYBERDISC_AUTOPSY: "Cybergift autopsy"
+      STR_CYBERDISC_AUTOPSY_UFOPEDIA: "The Cybergift is well shielded and is particularly good at withstanding explosive ammunition. The primary anti-gravity system is too badly damaged to gain any understanding of its functioning. The \"gift tag\" simply displays a jumbled mess of lines, despite soldiers in the field claiming otherwise."
+      STR_CYBERDISC: "Cybergift"
+      STR_CYBERDISC_TERRORIST: "Cybergift Terrorist"
+      STR_CYBERDISC_CORPSE: "Cybergift Corpse"
+      CYBERDISC_WEAPON: "Cybergift Weapon"
